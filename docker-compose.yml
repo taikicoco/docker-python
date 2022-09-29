@@ -1,7 +1,9 @@
 version: '3'
 services:
   jupyterlab:
-    build: .
+    build: 
+      context: .
+      dockerfile: /docker/Dockerfile
     image: jupyterlab-img
     container_name: jupyterlab
     working_dir: /work
