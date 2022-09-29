@@ -1,4 +1,4 @@
-## docker-python3
+## docker-python
 
 ```
 $ cd docker-python/
